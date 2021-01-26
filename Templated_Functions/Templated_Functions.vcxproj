@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Addition.cpp" />
+    <ClCompile Include="FillRand.cpp" />
+    <ClCompile Include="MaxvalueI.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MinvalueIn.cpp" />
+    <ClCompile Include="Print.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="templated.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
